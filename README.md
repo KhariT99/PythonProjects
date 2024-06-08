@@ -1,4 +1,4 @@
-# PythonProjects
+# 🐍 PythonProjects
 
 ### Conncet4 AI
 This Python script implements a Connect Four game using the minimax algorithm for the AI player. 
