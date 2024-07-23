@@ -8,7 +8,7 @@ The primary purpose of this repository is to:
 - Showcase Abilities: Present my work to potential employers, collaborators, and the developer community to demonstrate my skills and dedication.
 <hr>
 
-### Conncet4 AI
+### Connect 4 AI
 This Python script implements a Connect Four game using the minimax algorithm for the AI player. 
 
 1 - Board Setup: The game board is represented as a NumPy array, with rows and columns defined by constants ROW_COUNT and COLUMN_COUNT. Pieces are represented as integers: EMPTY, PLAYER_PIECE, and AI_PIECE.
