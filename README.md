@@ -25,13 +25,13 @@ This script combines game logic, AI decision-making, and user interface elements
 ### SudokuSolver
 This Python script creates a Sudoku Solver application using Pygame.
 
-1 - Initializing Pygame: Pygame is initialized using pygame.init(), which sets up the Pygame environment for use.
+1 - Initialising Pygame: Pygame is initialized using pygame.init(), which sets up the Pygame environment for use.
 
 2 - Constants and Setup: The script defines several constants such as the window width and height (WIDTH and HEIGHT), colors (e.g., WHITE, BLACK, RED), and a font for rendering text. The display window is created using pygame.display.set_mode() with the specified dimensions, and the window title is set using pygame.display.set_caption().
 
 3 - Sudoku Logic: The script implements functions for solving Sudoku puzzles. The find_next_empty() function finds the next empty cell in the puzzle. The is_valid() function checks if a given number is valid at a specified position according to Sudoku rules. The solve_sudoku() function recursively solves the puzzle using backtracking, trying different guesses until a solution is found.
 
-4 - Drawing the Grid: The draw_grid() function visualizes the Sudoku grid on the Pygame window. It fills the window with a white background and draws the grid lines, numbers, and original puzzle values in red.
+4 - Drawing the Grid: The draw_grid() function visualises the Sudoku grid on the Pygame window. It fills the window with a white background and draws the grid lines, numbers, and original puzzle values in red.
 
-5 - Main Function: The main() function initializes the Sudoku puzzle and its original state, draws the initial grid, and calls the solve_sudoku() function to solve the puzzle.
+5 - Main Function: The main() function initialises the Sudoku puzzle and its original state, draws the initial grid, and calls the solve_sudoku() function to solve the puzzle.
 
