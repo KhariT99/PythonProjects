@@ -7,7 +7,17 @@ The primary purpose of this repository is to:
 - Test Skills: Challenge myself with complex problems and projects to enhance my coding proficiency and problem-solving abilities.
 - Showcase Abilities: Present my work to potential employers, collaborators, and the developer community to demonstrate my skills and dedication.
 <hr>
+### Multi-Output Classification on Modified MNIST
+This Python project implements a deep learning model using TensorFlow/Keras to perform multi-output classification on a modified MNIST dataset, designed to identify overlapping digits in images.
 
+1 - Dataset Preparation: The modified MNIST dataset contains images with overlapping digits. The data was preprocessed and formatted to suit multi-output classification, where each image corresponds to two labels, one for each digit.
+
+2 - Model Architecture: A Convolutional Neural Network (CNN) was developed and fine-tuned for this task. The architecture was optimized through a custom grid search, focusing on hyperparameters like learning rate and dropout rates. K-fold cross-validation was employed to ensure robustness and prevent overfitting.
+
+3 - Training and Optimization: The model was trained using categorical cross-entropy loss and the Adam optimizer. Hyperparameters were optimized to achieve maximum accuracy across both output categories, ensuring the model could effectively learn and differentiate between overlapping digits.
+
+4 - Evaluation and Analysis: Performance was evaluated per digit, with detailed analysis of learning curves and accuracy metrics. The model’s results were visualized using Matplotlib, demonstrating advanced techniques in computer vision and deep learning.
+<hr>
 ### Connect 4 AI
 This Python script implements a Connect Four game using the minimax algorithm for the AI player. 
 
