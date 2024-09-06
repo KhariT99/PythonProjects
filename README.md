@@ -7,6 +7,7 @@ The primary purpose of this repository is to:
 - Test Skills: Challenge myself with complex problems and projects to enhance my coding proficiency and problem-solving abilities.
 - Showcase Abilities: Present my work to potential employers, collaborators, and the developer community to demonstrate my skills and dedication.
 <hr>
+
 ### Multi-Output Classification on Modified MNIST
 This Python project implements a deep learning model using TensorFlow/Keras to perform multi-output classification on a modified MNIST dataset, designed to identify overlapping digits in images.
 
@@ -18,6 +19,7 @@ This Python project implements a deep learning model using TensorFlow/Keras to p
 
 4 - Evaluation and Analysis: Performance was evaluated per digit, with detailed analysis of learning curves and accuracy metrics. The model’s results were visualized using Matplotlib, demonstrating advanced techniques in computer vision and deep learning.
 <hr>
+
 ### Connect 4 AI
 This Python script implements a Connect Four game using the minimax algorithm for the AI player. 
 
